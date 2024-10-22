@@ -1,0 +1,112 @@
+body {      
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    width: 1200px;
+    margin-inline: auto;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.11px;
+    border: 0px;
+    background-color: #46A358;
+    border-radius: 6px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* margin-inline: auto;
+    margin-top: auto;
+    margin-bottom: auto; */
+    margin: auto;
+    font-size: 16px;
+}
+
+a {
+    color: #3D3D3D;
+    font-weight: 400;
+}
+
+a.first {
+    font-weight: 700;
+    border-bottom: 3px solid#46A358;
+    padding-bottom: 25px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   background-color:#F5F5F580
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hText {
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 7px 123px 5px 40px;
+}
+
+.green {
+    color: #46A358;
+}
+
+.mText {
+    font-weight: 500; 
+    font-size: 14px; 
+    min-width: 205px;
+    min-height: 16px;
+    /* margin-left: 43px; */
+    margin: 68px 445px 7px 43px;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center {
+    margin: auto;
+}
+
+.btn {
+    margin-top: 44px;
+    margin-left: 41px;
+    min-width: 140px;
+        min-height: 40 px;
+}
+
+.white {
+    color: white;
+    min-width: 100px;
+    min-height: 35 px;
+}
+
+.gray {
+    color: #727272;
+    margin-left: 43px;
+    font-size: 14px;
+    font-weight: 400;
+}
